@@ -11,7 +11,7 @@ const citiesData = [
     lon: "174.7633",
     landmark: "Sky Tower",
     description: "The Sky Tower offers breathtaking views of the city.",
-    imageUrl: "https://www.newzealand.com/assets/Operator-Database/img-1633906214-1424-1141-tnz-hero__aWxvdmVrZWxseQo_CropResizeWzk0MCw1MzAsOTAsImpwZyJd.jpg"
+    imageUrl: "https://wx4.sinaimg.cn/large/7fa932f6gy1hy1okeuoi3j220z20zu0x.jpg"
   },
   {
     name: "Wellington",
@@ -27,7 +27,7 @@ const citiesData = [
     lon: "168.6626",
     landmark: "Lake Wakatipu",
     description: "Known for adventure sports, and in winter, snow sports.",
-    imageUrl: "https://www.newzealand.com/assets/Tourism-NZ/Queenstown/2ce19cac82/img-1536964786-3844-19452-3270990283_51b157289c_b__aWxvdmVrZWxseQo_CropResizeWzUwMCwzNzUsODAsImpwZyJd.jpg"
+    imageUrl: "https://wx2.sinaimg.cn/large/7fa932f6gy1hzz4yzx8kxj22ge3pcx6s.jpg"
   },
   {
     name: "Rotorua",
@@ -35,7 +35,7 @@ const citiesData = [
     lon: "176.2497",
     landmark: "Te Puia",
     description: "Home to the Pohutu Geyser, Maori culture, and geothermal wonders.",
-    imageUrl: "https://www.rotoruanz.com/getattachment/402d7957-1706-4a0b-9a54-5d1102f20c9c/tepuia_1.jpg"
+    imageUrl: "https://wx3.sinaimg.cn/large/7fa932f6gy1hvpg38qjkej217h0stdw1.jpg"
   },
   {
     name: "Christchurch",
@@ -43,7 +43,7 @@ const citiesData = [
     lon: "172.6362",
     landmark: "Christchurch Botanic Gardens",
     description: "These gardens feature an array of plant collections and beautiful scenery.",
-    imageUrl: "https://ccc.govt.nz/assets/Images/Parks-gardens/Christchurch-Botanic-Gardens/Buildings/1__FillWzg1NSw0ODFd.1-Botanic-Gardens-Armstrong-Lawn-bedding-and-Curators-House-046-cpd1.jpg"
+    imageUrl: "https://wx3.sinaimg.cn/large/7fa932f6gy1i0b0figu0hj20zk1hm7j5.jpg"
   },
   {
     name: "Dunedin",
@@ -75,7 +75,7 @@ const citiesData = [
     lon: "169.1321",
     landmark: "That Wanaka Tree",
     description: "Situated on the shores of Lake Wanaka, 'That Wanaka Tree' stands solitary in the water and has become an iconic symbol of the region. It represents the beauty and solitude of Wanaka's landscape and is a must-visit for photographers and nature lovers alike.",
-    imageUrl: "https://www.edwud.com/wp-content/uploads/2021/12/that-wanaka-tree-at-dusk.jpg"
+    imageUrl: "https://wx2.sinaimg.cn/large/7fa932f6gy1htbmwp5vzrj22ge3pcb2d.jpg"
   }
 ];
 
@@ -86,14 +86,14 @@ function App() {
 
   const handleNavSelect = (component) => {
     setSelectedComponent(component);
-    setSelectedCity(''); 
+    setSelectedCity('');
   };
 
   return (
     <div className="App">
       <Navbar onSelect={handleNavSelect} />
       <div className="container mt-5">
-        
+
         <div className="card bg-dark text-white mb-3">
           <div className="card-body">
             <h1 className="card-title">
@@ -107,7 +107,7 @@ function App() {
       </div>
     </div>
   );
-  
+
 }
 
 export default App;
