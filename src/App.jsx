@@ -11,7 +11,7 @@ const citiesData = [
     lon: "174.7633",
     landmark: "Sky Tower",
     description: "The Sky Tower offers breathtaking views of the city.",
-    imageUrl: "/images/Auckland.jpg"
+    imageUrl: `${import.meta.env.BASE_URL}images/Auckland.jpg`
   },
   {
     name: "Wellington",
@@ -27,7 +27,7 @@ const citiesData = [
     lon: "168.6626",
     landmark: "Lake Wakatipu",
     description: "Known for adventure sports, and in winter, snow sports.",
-    imageUrl: "/images/Queenstown.jpg"
+    imageUrl: `${import.meta.env.BASE_URL}images/Queenstown.jpg`
   },
   {
     name: "Rotorua",
@@ -35,7 +35,7 @@ const citiesData = [
     lon: "176.2497",
     landmark: "Te Puia",
     description: "Home to the Pohutu Geyser, Maori culture, and geothermal wonders.",
-    imageUrl: "/images/Rotorua.jpg"
+    imageUrl: `${import.meta.env.BASE_URL}images/Rotorua.jpg`
   },
   {
     name: "Christchurch",
@@ -43,7 +43,7 @@ const citiesData = [
     lon: "172.6362",
     landmark: "Christchurch Botanic Gardens",
     description: "These gardens feature an array of plant collections and beautiful scenery.",
-    imageUrl: "/images/Christchurch.jpg"
+    imageUrl: `${import.meta.env.BASE_URL}images/Christchurch.jpg`
   },
   {
     name: "Dunedin",
@@ -75,9 +75,10 @@ const citiesData = [
     lon: "169.1321",
     landmark: "That Wanaka Tree",
     description: "Situated on the shores of Lake Wanaka, 'That Wanaka Tree' stands solitary in the water and has become an iconic symbol of the region. It represents the beauty and solitude of Wanaka's landscape and is a must-visit for photographers and nature lovers alike.",
-    imageUrl: "/images/Wanaka.jpg"
+    imageUrl: `${import.meta.env.BASE_URL}images/Wanaka.jpg`
   }
 ];
+
 
 
 function App() {
